@@ -1,0 +1,35 @@
+/* UserManagementLandingPage.css */
+
+.user-management-landing-page {
+    background: #f8f9fa; /* Set your background color */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    text-align: center;
+    color: #333; /* Set your text color */
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .lead {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+  }
+  
+  .get-started-button {
+    background-color: #007bff; /* Customize the button color */
+    color: #fff; /* Set text color for the button */
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
