@@ -42,11 +42,11 @@ export default function Login(props) {
       }
 
       else{
-        const json = await response.json();
-        console.log(json);
+        // const json = await response.json();
+        // console.log(json);
         
         //save the authtoken
-        localStorage.setItem('token',json.authtoken)
+        localStorage.setItem('token',response.authtoken)
         //redirect
         redirect();
       }
